@@ -7,15 +7,15 @@ func main() {
 		fmt.Println(i)
 	}
 	fmt.Println("---------------------")
-	// white
+	// while
 	x := 0
 	for x <= 10 {
 		fmt.Println(x)
 		x++
 	}
 
-	// laço infinito
 	y := 0
+	// laço infinito
 	// não precisa ser "for true"
 	for {
 		fmt.Println(y)
